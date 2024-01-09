@@ -116,5 +116,8 @@ function gameObject() {
   }
 }
 }
-
+function homeTeamName() {
+  let gameObject = "Brooklyn Nets";
+return Object["home"]["teamName"]
+}
 console.log(gameObject());
