@@ -5,8 +5,8 @@ function gameObject() {
           teamName: "Brooklyn Nets",
           colors: ["black", "white"],
           players: {
-            player1: {
-              name: "Alan Anderson",
+            
+             "Alan Anderson": {
               number: "0",
               shoe: "16",
               points: "22",
@@ -16,8 +16,7 @@ function gameObject() {
               blocks: "1",
               slamDunks: "1",
             },
-            player2: {
-              name: "Reggie Evans",
+           "Reggie Evans": {
               number: "30",
               shoe: "14",
               points: "12",
@@ -27,8 +26,7 @@ function gameObject() {
               blocks: "12",
               slamDunks: "7",
             },
-            player3: {
-              name: "Brook Lopez",
+           "Brook Lopez":{
               number: "11",
               shoe: "17",
               points: "17",
@@ -37,9 +35,7 @@ function gameObject() {
               steals: "3",
               blocks: "1",
               slamDunks: "15",
-            },
-            player4: {
-              name: "Mason Plumlee",
+            "Mason Plumlee":{
               number: "1",
               shoe: "19",
               points: "26",
@@ -49,8 +45,7 @@ function gameObject() {
               blocks: "8",
               slamDunks: "5",
             },
-            player5: {
-              name: "Jason Terry",
+            "Jason Terry":{
               number: "31",
               shoe: "15",
               points: "19",
@@ -63,6 +58,71 @@ function gameObject() {
           },
         },
       },
+    },
+  }
+
+}
+  return {
+      team: {
+ away: {
+          teamName: "Charlotte Hornets",
+          colors: ["Turquoise", "Purple"],
+          players: {
+            
+             "Jeff Adrien": {
+              number: "4",
+              shoe: "18",
+              points: "10",
+              rebounds: "1",
+              assists: "1",
+              steals: "2",
+              blocks: "7",
+              slamDunks: "2",
+            },
+           "Bismak Biyombo": {
+              number: "0",
+              shoe: "16",
+              points: "12",
+              rebounds: "4",
+              assists: "7",
+              steals: "7",
+              blocks: "15",
+              slamDunks: "10",
+            },
+           "DeSagna Diop":{
+              number: "2",
+              shoe: "14",
+              points: "24",
+              rebounds: "12",
+              assists: "12",
+              steals: "4",
+              blocks: "5",
+              slamDunks: "5",
+            "Ben Gordon":{
+              number: "8",
+              shoe: "15",
+              points: "33",
+              rebounds: "3",
+              assists: "2",
+              steals: "1",
+              blocks: "1",
+              slamDunks: "0",
+            },
+            "Brendan Haywood":{
+              number: "33",
+              shoe: "15",
+              points: "6",
+              rebounds: "12",
+              assists: "12",
+              steals: "22",
+              blocks: "5",
+              slamDunks: "12",
+            },
+          },
+        },
+      },
     };
   }
-  
+
+
+console.log(gameObject());
