@@ -5,7 +5,6 @@ function gameObject() {
           teamName: "Brooklyn Nets",
           colors: ["black", "white"],
           players: {
-            
              "Alan Anderson": {
               number: "0",
               shoe: "16",
@@ -57,18 +56,10 @@ function gameObject() {
             },
           },
         },
-      },
-    },
-  }
-
-}
-  return {
-      team: {
  away: {
           teamName: "Charlotte Hornets",
           colors: ["Turquoise", "Purple"],
           players: {
-            
              "Jeff Adrien": {
               number: "4",
               shoe: "18",
@@ -121,8 +112,9 @@ function gameObject() {
           },
         },
       },
-    };
+    },
   }
-
+}
+}
 
 console.log(gameObject());
